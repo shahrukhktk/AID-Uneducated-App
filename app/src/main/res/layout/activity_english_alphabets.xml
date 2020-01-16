@@ -36,7 +36,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:background="@android:color/transparent"
-                    android:onClick="EnglishAlphabets"
+                    android:onClick="clickA"
                     android:padding="10dp"
                     android:src="@drawable/char_a" />
                 <ImageView
@@ -47,7 +47,7 @@
                     android:src="@drawable/char_b"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickB"/>
                 <ImageView
                     android:id="@+id/character_C_Id"
                     android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
                     android:src="@drawable/char_c"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickC"/>
                 <ImageView
                     android:id="@+id/character_D_Id"
                     android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
                     android:src="@drawable/char_d"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickD"/>
                 <ImageView
                     android:id="@+id/character_E_Id"
                     android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
                     android:src="@drawable/char_e"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickE"/>
                 <ImageView
                     android:id="@+id/character_F_Id"
                     android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
                     android:src="@drawable/char_f"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickF"/>
                 <ImageView
                     android:id="@+id/character_G_Id"
                     android:layout_width="wrap_content"
@@ -92,7 +92,7 @@
                     android:src="@drawable/char_g"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickG"/>
                 <ImageView
                     android:id="@+id/character_H_Id"
                     android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
                     android:src="@drawable/char_h"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickH"/>
                 <ImageView
                     android:id="@+id/character_I_Id"
                     android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
                     android:src="@drawable/char_i"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickI"/>
                 <ImageView
                     android:id="@+id/character_J_Id"
                     android:layout_width="wrap_content"
@@ -119,7 +119,7 @@
                     android:src="@drawable/char_j"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickJ"/>
                 <ImageView
                     android:id="@+id/character_K_Id"
                     android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
                     android:src="@drawable/char_k"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickK"/>
                 <ImageView
                     android:id="@+id/character_L_Id"
                     android:layout_width="wrap_content"
@@ -137,7 +137,7 @@
                     android:src="@drawable/char_l"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickL"/>
                 <ImageView
                     android:id="@+id/character_M_Id"
                     android:layout_width="wrap_content"
@@ -146,7 +146,7 @@
                     android:src="@drawable/char_m"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickM"/>
                 <ImageView
                     android:id="@+id/character_N_Id"
                     android:layout_width="wrap_content"
@@ -155,7 +155,7 @@
                     android:src="@drawable/char_n"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickN"/>
                 <ImageView
                     android:id="@+id/character_O_Id"
                     android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
                     android:src="@drawable/char_o"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickO"/>
                 <ImageView
                     android:id="@+id/character_P_Id"
                     android:layout_width="wrap_content"
@@ -173,7 +173,7 @@
                     android:src="@drawable/char_p"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickP"/>
                 <ImageView
                     android:id="@+id/character_Q_Id"
                     android:layout_width="wrap_content"
@@ -182,7 +182,7 @@
                     android:src="@drawable/char_q"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickQ"/>
                 <ImageView
                     android:id="@+id/character_R_Id"
                     android:layout_width="wrap_content"
@@ -191,7 +191,7 @@
                     android:src="@drawable/char_r"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickR"/>
                 <ImageView
                     android:id="@+id/character_S_Id"
                     android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
                     android:src="@drawable/char_s"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickS"/>
                 <ImageView
                     android:id="@+id/character_T_Id"
                     android:layout_width="wrap_content"
@@ -209,7 +209,7 @@
                     android:src="@drawable/char_t"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickT"/>
                 <ImageView
                     android:id="@+id/character_U_Id"
                     android:layout_width="wrap_content"
@@ -218,7 +218,7 @@
                     android:src="@drawable/char_u"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickU"/>
                 <ImageView
                     android:id="@+id/character_V_Id"
                     android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
                     android:src="@drawable/char_v"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickV"/>
                 <ImageView
                     android:id="@+id/character_W_Id"
                     android:layout_width="wrap_content"
@@ -236,7 +236,7 @@
                     android:src="@drawable/char_w"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickW"/>
                 <ImageView
                     android:id="@+id/character_X_Id"
                     android:layout_width="wrap_content"
@@ -245,7 +245,7 @@
                     android:src="@drawable/char_x"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickX"/>
                 <ImageView
                     android:id="@+id/character_Y_Id"
                     android:layout_width="wrap_content"
@@ -254,7 +254,7 @@
                     android:src="@drawable/char_y"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickY"/>
                 <ImageView
                     android:id="@+id/character_Z_Id"
                     android:layout_width="wrap_content"
@@ -263,18 +263,30 @@
                     android:src="@drawable/char_z"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:onClick="EnglishAlphabets"/>
+                    android:onClick="clickZ"/>
 
             </LinearLayout>
 
         </ScrollView>
 
-        <FrameLayout
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="3"
-            android:orientation="vertical"
-            android:id="@+id/container_Id"/>
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/EngAlpha_image_ID"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/a"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 

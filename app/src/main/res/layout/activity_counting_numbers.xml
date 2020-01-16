@@ -9,7 +9,7 @@
     tools:context=".CountingNumbers.CountingNumbers">
 
     <include
-        android:id="@+id/english_AlphabetsToolbar_Id"
+        android:id="@+id/countingToolbar"
         layout="@layout/toolbar"/>
 
     <LinearLayout

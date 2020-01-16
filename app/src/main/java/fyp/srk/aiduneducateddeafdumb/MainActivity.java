@@ -1,12 +1,16 @@
 package fyp.srk.aiduneducateddeafdumb;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.appcompat.widget.TooltipCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import fyp.srk.aiduneducateddeafdumb.CountingNumbers.CountingNumbers;
 import fyp.srk.aiduneducateddeafdumb.EnglishAlphabets.EnglishAlphabetsActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -19,13 +23,17 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toolbar toolbar = findViewById(R.id.countingToolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Home");
+
         startquiz_Btn = (Button) findViewById(R.id.startQuiz_BtnId);
         startquiz_Btn.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view)
             {
-
+                Toast.makeText(MainActivity.this, "QUIZ", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -38,7 +46,7 @@ public class MainActivity extends AppCompatActivity
 
     public void Launch_CountingNumbers(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), CountingNumbers.class));
     }
 
     public void Launch_FamilyMembers(View view)

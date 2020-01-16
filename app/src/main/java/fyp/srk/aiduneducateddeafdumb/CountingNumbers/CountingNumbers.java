@@ -20,7 +20,7 @@ public class CountingNumbers extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_counting_numbers);
 
-        toolbar = findViewById(R.id.english_AlphabetsToolbar_Id);
+        toolbar = findViewById(R.id.countingToolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Counting Numbers Signs");
         imageReplacer = findViewById(R.id.MathNum_image_ID);

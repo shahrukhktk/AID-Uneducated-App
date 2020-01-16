@@ -3,4 +3,13 @@
     <string name="title_text">AID Uneducated DEAF-DUMB</string>
     <string name="slogan_text">we improve your DEAF-DUMB Learning</string>
     <string name="marks">Marks</string>
+    <string name="english_alphabets_sign">English Alphabets Sign</string>
+    <string name="counting_numbers">Counting Numbers Sign</string>
+    <string name="family_members"><![CDATA[Family Members & People Sign]]></string>
+    <string name="greetings">Greetings Sign</string>
+    <string name="daysnames">Days Signs</string>
+    <string name="time_signs">Time Signs</string>
+    <string name="colorssign">Colors Signs</string>
+    <string name="emotions_signs">Emotion Signs</string>
+    <string name="start_quiz">START QUIZ</string>
 </resources>

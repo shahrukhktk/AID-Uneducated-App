@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
+        android:background="@android:color/white"
         android:weightSum="4"
         >
 
@@ -289,6 +290,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 </LinearLayout>

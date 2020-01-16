@@ -1,6 +1,8 @@
 package fyp.srk.aiduneducateddeafdumb.EnglishAlphabets;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -10,6 +12,7 @@ import fyp.srk.aiduneducateddeafdumb.R;
 public class EnglishAlphabetsActivity extends AppCompatActivity
 {
     private ImageView imageReplacer;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -17,6 +20,9 @@ public class EnglishAlphabetsActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_alphabets);
 
+        toolbar = findViewById(R.id.english_AlphabetsToolbar_Id);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("English Alphabets Signs");
         imageReplacer = findViewById(R.id.EngAlpha_image_ID);
 
     }

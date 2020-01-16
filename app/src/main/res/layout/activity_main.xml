@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <include
+        android:id="@+id/mainToolbar_id"
         layout="@layout/toolbar"/>
 
     <ScrollView
@@ -58,7 +59,8 @@
                     android:layout_marginRight="15dp"
                     android:fontFamily="@font/sniglet_regular"
                     android:textSize="18sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    tools:ignore="UnusedAttribute" />
 
             </LinearLayout>
 
@@ -103,7 +105,8 @@
                     android:layout_marginRight="15dp"
                     android:fontFamily="@font/sniglet_regular"
                     android:textSize="18sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    tools:ignore="UnusedAttribute" />
 
             </LinearLayout>
 
@@ -149,7 +152,8 @@
                     android:layout_marginRight="15dp"
                     android:fontFamily="@font/sniglet_regular"
                     android:textSize="18sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    tools:ignore="UnusedAttribute" />
 
             </LinearLayout>
 
@@ -241,7 +245,8 @@
                     android:layout_marginRight="15dp"
                     android:fontFamily="@font/sniglet_regular"
                     android:textSize="18sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    tools:ignore="UnusedAttribute" />
 
             </LinearLayout>
 
@@ -287,7 +292,8 @@
                     android:layout_marginRight="15dp"
                     android:fontFamily="@font/sniglet_regular"
                     android:textSize="18sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    tools:ignore="UnusedAttribute" />
 
             </LinearLayout>
 
@@ -333,7 +339,8 @@
                     android:layout_marginRight="15dp"
                     android:fontFamily="@font/sniglet_regular"
                     android:textSize="18sp"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    tools:ignore="UnusedAttribute" />
 
             </LinearLayout>
 

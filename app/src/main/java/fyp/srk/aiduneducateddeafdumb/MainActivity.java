@@ -1,12 +1,13 @@
 package fyp.srk.aiduneducateddeafdumb;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
+
+import fyp.srk.aiduneducateddeafdumb.EnglishAlphabets.EnglishAlphabetsActivity;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -18,13 +19,21 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        startquiz_Btn = (Button) findViewById(R.id.startQuiz_BtnId);
+        startquiz_Btn.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
 
+            }
+        });
 
     }
 
     public void Launch_EnglishAlphabets(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), EnglishAlphabetsActivity.class));
     }
 
     public void Launch_CountingNumbers(View view)

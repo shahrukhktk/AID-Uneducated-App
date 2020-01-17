@@ -42,4 +42,12 @@
     <string name="wednesday">Wednesday</string>
     <string name="thursday">Thursday</string>
     <string name="friday">Friday</string>
+    <string name="voilet">Voilet</string>
+    <string name="blue">Blue</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="green">Green</string>
+    <string name="pink">Pink</string>
+    <string name="yellow">Yellow</string>
+    <string name="red">Red</string>
 </resources>

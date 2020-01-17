@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TimeSigns.TimeSignActivity"></activity>
+        <activity android:name=".DaysNames.DaysSigns"></activity>
+        <activity android:name=".TimeSigns.TimeSignActivity" />
         <activity android:name=".Greetings.GreetingsActivity" />
         <activity android:name=".FamilyMembers.FamilyMembersActivity" />
         <activity android:name=".CountingNumbers.CountingNumbers" />

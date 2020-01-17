@@ -23,6 +23,7 @@ public class CountingNumbers extends AppCompatActivity
         toolbar = findViewById(R.id.countingToolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Counting Numbers Signs");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         imageReplacer = findViewById(R.id.MathNum_image_ID);
 
     }

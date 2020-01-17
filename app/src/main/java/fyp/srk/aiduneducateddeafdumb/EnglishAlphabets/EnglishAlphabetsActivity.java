@@ -23,6 +23,7 @@ public class EnglishAlphabetsActivity extends AppCompatActivity
         toolbar = findViewById(R.id.english_AlphabetsToolbar_Id);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("English Alphabets Signs");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         imageReplacer = findViewById(R.id.EngAlpha_image_ID);
 
     }

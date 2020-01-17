@@ -16,4 +16,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="mom">MOM</string>
+    <string name="hello">Hello</string>
+    <string name="good">Good</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="night">Night</string>
+    <string name="thanks">Thanks</string>
+    <string name="sorry">Sorry</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="howareyou">How are you?</string>
 </resources>

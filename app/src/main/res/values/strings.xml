@@ -50,4 +50,13 @@
     <string name="pink">Pink</string>
     <string name="yellow">Yellow</string>
     <string name="red">Red</string>
+    <string name="please">Please</string>
+    <string name="done">Done</string>
+    <string name="love">Love</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="stop">Stop</string>
+    <string name="water">Water</string>
+    <string name="afraid">Afraid</string>
+    <string name="more">More</string>
 </resources>

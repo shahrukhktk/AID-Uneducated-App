@@ -11,37 +11,47 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ColorsSigns.ColorsActivity"
+        <activity android:name=".EmotionsAndFeelingsSigns.EmotionsAndFeelingsSignActivity"></activity>
+        <activity
+            android:name=".ColorsSigns.ColorsActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".DaysNames.DaysSigns"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".DaysNames.DaysSigns"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".TimeSigns.TimeSignActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".TimeSigns.TimeSignActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Greetings.GreetingsActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".Greetings.GreetingsActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".FamilyMembers.FamilyMembersActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".FamilyMembers.FamilyMembersActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".CountingNumbers.CountingNumbers"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".CountingNumbers.CountingNumbers"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".EnglishAlphabets.EnglishAlphabetsActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".EnglishAlphabets.EnglishAlphabetsActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".SplashScreen"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

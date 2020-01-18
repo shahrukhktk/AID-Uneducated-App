@@ -15,7 +15,7 @@ public class FamilyMembersActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_family_members);
 
-        toolbar = findViewById(R.id.countingToolbar);
+        toolbar = findViewById(R.id.familymembers_toolbarId);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Family Members Signs");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

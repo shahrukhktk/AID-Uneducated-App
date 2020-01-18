@@ -83,14 +83,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom" />
+                        android:src="@drawable/dad" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/sniglet_regular"
-                        android:text="@string/mom"
+                        android:text="@string/dad"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:gravity="center"
@@ -135,13 +135,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom" />
+                        android:src="@drawable/daughter" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
-                        android:text="@string/mom"
+                        android:text="@string/daughter"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"
                         android:layout_gravity="center"
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom"
+                        android:src="@drawable/son"
                         android:layout_gravity="center"
                         android:gravity="center"/>
 
@@ -176,7 +176,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/sniglet_regular"
-                        android:text="@string/mom"
+                        android:text="@string/son"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:gravity="center"
@@ -221,13 +221,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom" />
+                        android:src="@drawable/aunt" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
-                        android:text="@string/mom"
+                        android:text="@string/aunt"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"
                         android:layout_gravity="center"
@@ -253,7 +253,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom"
+                        android:src="@drawable/uncle"
                         android:layout_gravity="center"
                         android:gravity="center"/>
 
@@ -262,7 +262,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/sniglet_regular"
-                        android:text="@string/mom"
+                        android:text="@string/uncle"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:gravity="center"
@@ -307,13 +307,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom" />
+                        android:src="@drawable/grandfather" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
-                        android:text="@string/mom"
+                        android:text="@string/grandfather"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"
                         android:layout_gravity="center"
@@ -339,7 +339,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom"
+                        android:src="@drawable/grandmother"
                         android:layout_gravity="center"
                         android:gravity="center"/>
 
@@ -348,7 +348,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/sniglet_regular"
-                        android:text="@string/mom"
+                        android:text="@string/grandmother"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:gravity="center"
@@ -393,13 +393,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom" />
+                        android:src="@drawable/cousins" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
-                        android:text="@string/mom"
+                        android:text="@string/cousins"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"
                         android:layout_gravity="center"
@@ -425,7 +425,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
                         android:layout_weight="2"
-                        android:src="@drawable/mom"
+                        android:src="@drawable/nephew"
                         android:layout_gravity="center"
                         android:gravity="center"/>
 
@@ -434,7 +434,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/sniglet_regular"
-                        android:text="@string/mom"
+                        android:text="@string/nephew"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:gravity="center"

@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/dashboard_button_design"
-            android:text="@string/start_quiz"
+            android:text="@string/quizstart"
             android:textColor="@android:color/white"
             android:fontFamily="@font/sniglet_regular"
             android:textSize="16sp"

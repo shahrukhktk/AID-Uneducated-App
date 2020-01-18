@@ -8,6 +8,10 @@
     android:layout_height="match_parent"
     tools:context=".Quizes.QuizStartAtivity">
 
+    <include
+        android:id="@+id/startquiz_toolbarId"
+        layout="@layout/toolbar"/>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"

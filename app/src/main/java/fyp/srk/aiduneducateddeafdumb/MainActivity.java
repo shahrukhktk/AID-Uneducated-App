@@ -21,6 +21,7 @@ import fyp.srk.aiduneducateddeafdumb.EnglishAlphabets.EnglishAlphabetsActivity;
 import fyp.srk.aiduneducateddeafdumb.FamilyMembers.FamilyMembersActivity;
 import fyp.srk.aiduneducateddeafdumb.Greetings.GreetingsActivity;
 import fyp.srk.aiduneducateddeafdumb.MarksSection.MarksDashboard;
+import fyp.srk.aiduneducateddeafdumb.Quizes.QuizStartAtivity;
 import fyp.srk.aiduneducateddeafdumb.TimeSigns.TimeSignActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view)
             {
-                Toast.makeText(MainActivity.this, "QUIZ", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(), QuizStartAtivity.class));
             }
         });
 

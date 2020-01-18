@@ -10,8 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import fyp.srk.aiduneducateddeafdumb.ColorsSigns.ColorsActivity;
 import fyp.srk.aiduneducateddeafdumb.CountingNumbers.CountingNumbers;
+import fyp.srk.aiduneducateddeafdumb.DaysNames.DaysSigns;
+import fyp.srk.aiduneducateddeafdumb.EmotionsAndFeelingsSigns.EmotionsAndFeelingsSignActivity;
 import fyp.srk.aiduneducateddeafdumb.EnglishAlphabets.EnglishAlphabetsActivity;
+import fyp.srk.aiduneducateddeafdumb.FamilyMembers.FamilyMembersActivity;
+import fyp.srk.aiduneducateddeafdumb.Greetings.GreetingsActivity;
+import fyp.srk.aiduneducateddeafdumb.TimeSigns.TimeSignActivity;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -51,31 +57,31 @@ public class MainActivity extends AppCompatActivity
 
     public void Launch_FamilyMembers(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), FamilyMembersActivity.class));
     }
 
     public void Launch_Greetings(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), GreetingsActivity.class));
     }
 
     public void Launch_DaysOfTheWeek(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), DaysSigns.class));
     }
 
     public void Launch_TimeActivity(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), TimeSignActivity.class));
     }
 
     public void Launch_ColorsActivity(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), ColorsActivity.class));
     }
 
     public void Launch_EmotionsActivity(View view)
     {
-
+        startActivity(new Intent(getApplicationContext(), EmotionsAndFeelingsSignActivity.class));
     }
 }

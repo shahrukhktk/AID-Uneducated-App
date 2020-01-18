@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".EmotionsAndFeelingsSigns.EmotionsAndFeelingsSignActivity"></activity>
+        <activity android:name=".MarksSection.MarksDashboard"></activity>
+        <activity android:name=".EmotionsAndFeelingsSigns.EmotionsAndFeelingsSignActivity" />
         <activity
             android:name=".ColorsSigns.ColorsActivity"
             android:parentActivityName=".MainActivity"

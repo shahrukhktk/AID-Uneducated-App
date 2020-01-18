@@ -1,11 +1,14 @@
 package fyp.srk.aiduneducateddeafdumb;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.appcompat.widget.TooltipCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -17,6 +20,7 @@ import fyp.srk.aiduneducateddeafdumb.EmotionsAndFeelingsSigns.EmotionsAndFeeling
 import fyp.srk.aiduneducateddeafdumb.EnglishAlphabets.EnglishAlphabetsActivity;
 import fyp.srk.aiduneducateddeafdumb.FamilyMembers.FamilyMembersActivity;
 import fyp.srk.aiduneducateddeafdumb.Greetings.GreetingsActivity;
+import fyp.srk.aiduneducateddeafdumb.MarksSection.MarksDashboard;
 import fyp.srk.aiduneducateddeafdumb.TimeSigns.TimeSignActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -83,5 +87,21 @@ public class MainActivity extends AppCompatActivity
     public void Launch_EmotionsActivity(View view)
     {
         startActivity(new Intent(getApplicationContext(), EmotionsAndFeelingsSignActivity.class));
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.action_marks:
+                startActivity (new Intent (this, MarksDashboard.class));
+                break;
+        }
+        return true;
     }
 }

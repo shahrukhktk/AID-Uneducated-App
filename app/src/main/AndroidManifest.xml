@@ -11,9 +11,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Quizes.QuizStartAtivity"></activity>
-        <activity android:name=".MarksSection.MarksDashboard" />
-        <activity android:name=".EmotionsAndFeelingsSigns.EmotionsAndFeelingsSignActivity" />
+        <activity android:name=".Quizes.QuizDashboard"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Quizes.QuizStartAtivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute"/>
+        <activity android:name=".Quizes.QuizStartAtivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute"/>
+        <activity android:name=".MarksSection.MarksDashboard"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute"/>
+        <activity android:name=".EmotionsAndFeelingsSigns.EmotionsAndFeelingsSignActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute"/>
         <activity
             android:name=".ColorsSigns.ColorsActivity"
             android:parentActivityName=".MainActivity"

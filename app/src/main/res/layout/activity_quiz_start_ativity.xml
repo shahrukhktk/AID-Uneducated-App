@@ -38,6 +38,7 @@
             android:fontFamily="@font/sniglet_regular"
             android:textSize="16sp"
             tools:ignore="UnusedAttribute"
+            android:onClick="MoveToQuizDashboard"
             android:layout_margin="20dp"/>
 
     </LinearLayout>

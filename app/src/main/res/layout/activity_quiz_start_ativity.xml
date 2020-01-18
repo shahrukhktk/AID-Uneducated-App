@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quizes.QuizStartAtivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="20sp"
+            android:background="@drawable/edittext_back"
+            android:hint="@string/enter_your_name"
+            android:fontFamily="@font/sniglet_regular"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dashboard_button_design"
+            android:text="@string/start_quiz"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/sniglet_regular"
+            android:textSize="16sp"
+            tools:ignore="UnusedAttribute"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

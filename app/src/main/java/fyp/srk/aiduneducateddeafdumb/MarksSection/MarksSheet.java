@@ -18,7 +18,7 @@ public class MarksSheet extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_marks_sheet);
 
-        Toolbar toolbar = findViewById(R.id.marksSectionToolbar_id);
+        Toolbar toolbar = findViewById(R.id.marksheetToolbarId);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Marks");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

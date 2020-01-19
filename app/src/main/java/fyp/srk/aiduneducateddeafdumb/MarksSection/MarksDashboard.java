@@ -3,6 +3,7 @@ package fyp.srk.aiduneducateddeafdumb.MarksSection;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -23,26 +24,34 @@ public class MarksDashboard extends AppCompatActivity {
     }
 
     public void Launch_EnglishAlphabetsMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 
     public void Launch_CountingNumbersMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 
     public void Launch_FamilyMembersMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 
     public void Launch_GreetingsMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 
     public void Launch_DaysOfTheWeekMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 
     public void Launch_TimeActivityMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 
     public void Launch_ColorsActivityMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 
     public void Launch_EmotionsActivityMarks(View view) {
+        startActivity(new Intent(getApplicationContext(), MarksSheet.class));
     }
 }

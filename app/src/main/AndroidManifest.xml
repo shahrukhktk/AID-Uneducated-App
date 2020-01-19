@@ -11,10 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MarksSection.MarksSheet"
-        android:parentActivityName=".MarksSection.MarksDashboard"
-        android:screenOrientation="portrait"
-        tools:ignore="InnerclassSeparator,UnusedAttribute"/>
+        <activity android:name=".Quizes.QuizActivity"></activity>
+        <activity
+            android:name=".MarksSection.MarksSheet"
+            android:parentActivityName=".MarksSection.MarksDashboard"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
             android:name=".Quizes.QuizDashboard"
             android:parentActivityName=".Quizes.QuizStartAtivity"

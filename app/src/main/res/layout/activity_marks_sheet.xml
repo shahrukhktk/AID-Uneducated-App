@@ -8,6 +8,16 @@
     android:layout_height="match_parent"
     tools:context=".MarksSection.MarksSheet">
 
+    <include layout="@layout/toolbar"
+        android:id="marksheetToolbarId"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_Id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20sp">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
